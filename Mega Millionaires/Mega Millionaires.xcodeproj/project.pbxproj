@@ -1,0 +1,837 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		341343FF6FEFA42D1928565F /* Pods_Mega_MillionairesUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 065EACECB670EE1A5580EBEC /* Pods_Mega_MillionairesUITests.framework */; };
+		7B19138522F7EBC500D611C6 /* Enum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B19138422F7EBC500D611C6 /* Enum.swift */; };
+		7B19138A22F8171800D611C6 /* HistoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B19138922F8171800D611C6 /* HistoryTableViewCell.swift */; };
+		7B89A8B522F43BC300AF214B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B89A8B422F43BC300AF214B /* AppDelegate.swift */; };
+		7B89A8B722F43BC300AF214B /* MainController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B89A8B622F43BC300AF214B /* MainController.swift */; };
+		7B89A8BA22F43BC300AF214B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B89A8B822F43BC300AF214B /* Main.storyboard */; };
+		7B89A8BC22F43BC400AF214B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B89A8BB22F43BC400AF214B /* Assets.xcassets */; };
+		7B89A8BF22F43BC400AF214B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B89A8BD22F43BC400AF214B /* LaunchScreen.storyboard */; };
+		7B89A8CA22F43BC400AF214B /* Mega_MillionairesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B89A8C922F43BC400AF214B /* Mega_MillionairesTests.swift */; };
+		7B89A8D522F43BC400AF214B /* Mega_MillionairesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B89A8D422F43BC400AF214B /* Mega_MillionairesUITests.swift */; };
+		7B9340D92302A56E00A23B4F /* StyleExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B9340D82302A56E00A23B4F /* StyleExtension.swift */; };
+		7BB272AD22F44B7400E5A10A /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BB272AC22F44B7400E5A10A /* AboutViewController.swift */; };
+		7BB272B222F44C8600E5A10A /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BB272B122F44C8600E5A10A /* Config.swift */; };
+		7BB272B522F44D1500E5A10A /* NewTokenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BB272B422F44D1500E5A10A /* NewTokenViewController.swift */; };
+		7BB272B722F44D2400E5A10A /* HistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BB272B622F44D2400E5A10A /* HistoryViewController.swift */; };
+		7BC1029B22FA88AD002444C2 /* ResultTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BC1029A22FA88AD002444C2 /* ResultTableViewCell.swift */; };
+		7BC102A222FAA44E002444C2 /* Page.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BC1029C22FAA44E002444C2 /* Page.swift */; };
+		7BC102A522FAA44E002444C2 /* Datas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BC1029F22FAA44E002444C2 /* Datas.swift */; };
+		7BC102A722FAA44E002444C2 /* Lottery_Results.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BC102A122FAA44E002444C2 /* Lottery_Results.swift */; };
+		7BC102A922FAC397002444C2 /* LocalData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BC102A822FAC397002444C2 /* LocalData.swift */; };
+		7BC102AB22FAF813002444C2 /* CustomExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BC102AA22FAF813002444C2 /* CustomExtension.swift */; };
+		7BC102AE22FB0634002444C2 /* Token.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BC102AD22FB0634002444C2 /* Token.swift */; };
+		7BE4A76822FBD0B900375E78 /* TokenArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BE4A76722FBD0B900375E78 /* TokenArray.swift */; };
+		7BF6359F22F929D500113815 /* LotteryApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BF6359E22F929D500113815 /* LotteryApi.swift */; };
+		A474ABD136B041184F71D29B /* Pods_Mega_MillionairesTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41E6CFBE9B4D1DD37D916FF3 /* Pods_Mega_MillionairesTests.framework */; };
+		C77915C901FF1CD1FF23E001 /* Pods_Mega_Millionaires.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3EDBBF554E4A87AFE6F3AEE8 /* Pods_Mega_Millionaires.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7B89A8C622F43BC400AF214B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7B89A8A922F43BC300AF214B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7B89A8B022F43BC300AF214B;
+			remoteInfo = "Mega Millionaires";
+		};
+		7B89A8D122F43BC400AF214B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7B89A8A922F43BC300AF214B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7B89A8B022F43BC300AF214B;
+			remoteInfo = "Mega Millionaires";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		065EACECB670EE1A5580EBEC /* Pods_Mega_MillionairesUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Mega_MillionairesUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		37CB119B07E092169C526A07 /* Pods-Mega Millionaires.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mega Millionaires.debug.xcconfig"; path = "Target Support Files/Pods-Mega Millionaires/Pods-Mega Millionaires.debug.xcconfig"; sourceTree = "<group>"; };
+		3EDBBF554E4A87AFE6F3AEE8 /* Pods_Mega_Millionaires.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Mega_Millionaires.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		41E6CFBE9B4D1DD37D916FF3 /* Pods_Mega_MillionairesTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Mega_MillionairesTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		567AA4A8C48E3A7A229E05A2 /* Pods-Mega MillionairesUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mega MillionairesUITests.debug.xcconfig"; path = "Target Support Files/Pods-Mega MillionairesUITests/Pods-Mega MillionairesUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		66B73A2154C720A77660F82E /* Pods-Mega Millionaires.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mega Millionaires.release.xcconfig"; path = "Target Support Files/Pods-Mega Millionaires/Pods-Mega Millionaires.release.xcconfig"; sourceTree = "<group>"; };
+		7B19138422F7EBC500D611C6 /* Enum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enum.swift; sourceTree = "<group>"; };
+		7B19138922F8171800D611C6 /* HistoryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryTableViewCell.swift; sourceTree = "<group>"; };
+		7B89A8B122F43BC300AF214B /* Mega Millionaires.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mega Millionaires.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B89A8B422F43BC300AF214B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7B89A8B622F43BC300AF214B /* MainController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainController.swift; sourceTree = "<group>"; };
+		7B89A8B922F43BC300AF214B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7B89A8BB22F43BC400AF214B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7B89A8BE22F43BC400AF214B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7B89A8C022F43BC400AF214B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7B89A8C522F43BC400AF214B /* Mega MillionairesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Mega MillionairesTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B89A8C922F43BC400AF214B /* Mega_MillionairesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mega_MillionairesTests.swift; sourceTree = "<group>"; };
+		7B89A8CB22F43BC400AF214B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7B89A8D022F43BC400AF214B /* Mega MillionairesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Mega MillionairesUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B89A8D422F43BC400AF214B /* Mega_MillionairesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mega_MillionairesUITests.swift; sourceTree = "<group>"; };
+		7B89A8D622F43BC400AF214B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7B9340D82302A56E00A23B4F /* StyleExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StyleExtension.swift; sourceTree = "<group>"; };
+		7BB272AC22F44B7400E5A10A /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
+		7BB272B122F44C8600E5A10A /* Config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
+		7BB272B422F44D1500E5A10A /* NewTokenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewTokenViewController.swift; sourceTree = "<group>"; };
+		7BB272B622F44D2400E5A10A /* HistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryViewController.swift; sourceTree = "<group>"; };
+		7BC1029A22FA88AD002444C2 /* ResultTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultTableViewCell.swift; sourceTree = "<group>"; };
+		7BC1029C22FAA44E002444C2 /* Page.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Page.swift; sourceTree = "<group>"; };
+		7BC1029F22FAA44E002444C2 /* Datas.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Datas.swift; sourceTree = "<group>"; };
+		7BC102A122FAA44E002444C2 /* Lottery_Results.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lottery_Results.swift; sourceTree = "<group>"; };
+		7BC102A822FAC397002444C2 /* LocalData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalData.swift; sourceTree = "<group>"; };
+		7BC102AA22FAF813002444C2 /* CustomExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomExtension.swift; sourceTree = "<group>"; };
+		7BC102AD22FB0634002444C2 /* Token.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Token.swift; sourceTree = "<group>"; };
+		7BE4A76722FBD0B900375E78 /* TokenArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TokenArray.swift; sourceTree = "<group>"; };
+		7BF6359E22F929D500113815 /* LotteryApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LotteryApi.swift; sourceTree = "<group>"; };
+		994A571EADE435570D36B05F /* Pods-Mega MillionairesUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mega MillionairesUITests.release.xcconfig"; path = "Target Support Files/Pods-Mega MillionairesUITests/Pods-Mega MillionairesUITests.release.xcconfig"; sourceTree = "<group>"; };
+		ECD988395C81D29CEF8DE486 /* Pods-Mega MillionairesTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mega MillionairesTests.release.xcconfig"; path = "Target Support Files/Pods-Mega MillionairesTests/Pods-Mega MillionairesTests.release.xcconfig"; sourceTree = "<group>"; };
+		F9AC3E57CF9CD1E79CE812A3 /* Pods-Mega MillionairesTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mega MillionairesTests.debug.xcconfig"; path = "Target Support Files/Pods-Mega MillionairesTests/Pods-Mega MillionairesTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7B89A8AE22F43BC300AF214B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C77915C901FF1CD1FF23E001 /* Pods_Mega_Millionaires.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B89A8C222F43BC400AF214B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A474ABD136B041184F71D29B /* Pods_Mega_MillionairesTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B89A8CD22F43BC400AF214B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				341343FF6FEFA42D1928565F /* Pods_Mega_MillionairesUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2E14E312434EB75D4C7619DA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				37CB119B07E092169C526A07 /* Pods-Mega Millionaires.debug.xcconfig */,
+				66B73A2154C720A77660F82E /* Pods-Mega Millionaires.release.xcconfig */,
+				F9AC3E57CF9CD1E79CE812A3 /* Pods-Mega MillionairesTests.debug.xcconfig */,
+				ECD988395C81D29CEF8DE486 /* Pods-Mega MillionairesTests.release.xcconfig */,
+				567AA4A8C48E3A7A229E05A2 /* Pods-Mega MillionairesUITests.debug.xcconfig */,
+				994A571EADE435570D36B05F /* Pods-Mega MillionairesUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		7B19138822F816E500D611C6 /* cell */ = {
+			isa = PBXGroup;
+			children = (
+				7B19138922F8171800D611C6 /* HistoryTableViewCell.swift */,
+				7BC1029A22FA88AD002444C2 /* ResultTableViewCell.swift */,
+			);
+			path = cell;
+			sourceTree = "<group>";
+		};
+		7B89A8A822F43BC300AF214B = {
+			isa = PBXGroup;
+			children = (
+				7B89A8B322F43BC300AF214B /* Mega Millionaires */,
+				7B89A8C822F43BC400AF214B /* Mega MillionairesTests */,
+				7B89A8D322F43BC400AF214B /* Mega MillionairesUITests */,
+				7B89A8B222F43BC300AF214B /* Products */,
+				2E14E312434EB75D4C7619DA /* Pods */,
+				D20540A26257D4A18ADD1708 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7B89A8B222F43BC300AF214B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7B89A8B122F43BC300AF214B /* Mega Millionaires.app */,
+				7B89A8C522F43BC400AF214B /* Mega MillionairesTests.xctest */,
+				7B89A8D022F43BC400AF214B /* Mega MillionairesUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7B89A8B322F43BC300AF214B /* Mega Millionaires */ = {
+			isa = PBXGroup;
+			children = (
+				7BC102AC22FAF99C002444C2 /* others */,
+				7BB272B322F44CC100E5A10A /* model */,
+				7BB272B022F44C7200E5A10A /* api */,
+				7BB272AF22F44C5C00E5A10A /* controllers */,
+				7BB272AE22F44C4C00E5A10A /* storyboard */,
+				7B89A8B422F43BC300AF214B /* AppDelegate.swift */,
+				7B89A8BB22F43BC400AF214B /* Assets.xcassets */,
+				7B89A8C022F43BC400AF214B /* Info.plist */,
+			);
+			path = "Mega Millionaires";
+			sourceTree = "<group>";
+		};
+		7B89A8C822F43BC400AF214B /* Mega MillionairesTests */ = {
+			isa = PBXGroup;
+			children = (
+				7B89A8C922F43BC400AF214B /* Mega_MillionairesTests.swift */,
+				7B89A8CB22F43BC400AF214B /* Info.plist */,
+			);
+			path = "Mega MillionairesTests";
+			sourceTree = "<group>";
+		};
+		7B89A8D322F43BC400AF214B /* Mega MillionairesUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7B89A8D422F43BC400AF214B /* Mega_MillionairesUITests.swift */,
+				7B89A8D622F43BC400AF214B /* Info.plist */,
+			);
+			path = "Mega MillionairesUITests";
+			sourceTree = "<group>";
+		};
+		7BB272AE22F44C4C00E5A10A /* storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				7B89A8B822F43BC300AF214B /* Main.storyboard */,
+				7B89A8BD22F43BC400AF214B /* LaunchScreen.storyboard */,
+			);
+			path = storyboard;
+			sourceTree = "<group>";
+		};
+		7BB272AF22F44C5C00E5A10A /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+				7B19138822F816E500D611C6 /* cell */,
+				7B89A8B622F43BC300AF214B /* MainController.swift */,
+				7BB272AC22F44B7400E5A10A /* AboutViewController.swift */,
+				7BB272B422F44D1500E5A10A /* NewTokenViewController.swift */,
+				7BB272B622F44D2400E5A10A /* HistoryViewController.swift */,
+			);
+			path = controllers;
+			sourceTree = "<group>";
+		};
+		7BB272B022F44C7200E5A10A /* api */ = {
+			isa = PBXGroup;
+			children = (
+				7BB272B122F44C8600E5A10A /* Config.swift */,
+				7BF6359E22F929D500113815 /* LotteryApi.swift */,
+			);
+			path = api;
+			sourceTree = "<group>";
+		};
+		7BB272B322F44CC100E5A10A /* model */ = {
+			isa = PBXGroup;
+			children = (
+				7BC1029F22FAA44E002444C2 /* Datas.swift */,
+				7BC102A122FAA44E002444C2 /* Lottery_Results.swift */,
+				7BC1029C22FAA44E002444C2 /* Page.swift */,
+				7BC102AD22FB0634002444C2 /* Token.swift */,
+				7BE4A76722FBD0B900375E78 /* TokenArray.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		7BC102AC22FAF99C002444C2 /* others */ = {
+			isa = PBXGroup;
+			children = (
+				7BC102A822FAC397002444C2 /* LocalData.swift */,
+				7BC102AA22FAF813002444C2 /* CustomExtension.swift */,
+				7B9340D82302A56E00A23B4F /* StyleExtension.swift */,
+				7B19138422F7EBC500D611C6 /* Enum.swift */,
+			);
+			path = others;
+			sourceTree = "<group>";
+		};
+		D20540A26257D4A18ADD1708 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3EDBBF554E4A87AFE6F3AEE8 /* Pods_Mega_Millionaires.framework */,
+				41E6CFBE9B4D1DD37D916FF3 /* Pods_Mega_MillionairesTests.framework */,
+				065EACECB670EE1A5580EBEC /* Pods_Mega_MillionairesUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7B89A8B022F43BC300AF214B /* Mega Millionaires */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7B89A8D922F43BC400AF214B /* Build configuration list for PBXNativeTarget "Mega Millionaires" */;
+			buildPhases = (
+				7948F5055C1AD44E9FEFF8AF /* [CP] Check Pods Manifest.lock */,
+				7B89A8AD22F43BC300AF214B /* Sources */,
+				7B89A8AE22F43BC300AF214B /* Frameworks */,
+				7B89A8AF22F43BC300AF214B /* Resources */,
+				C4607DF983C1FF46B517C1D3 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Mega Millionaires";
+			productName = "Mega Millionaires";
+			productReference = 7B89A8B122F43BC300AF214B /* Mega Millionaires.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7B89A8C422F43BC400AF214B /* Mega MillionairesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7B89A8DC22F43BC400AF214B /* Build configuration list for PBXNativeTarget "Mega MillionairesTests" */;
+			buildPhases = (
+				96BFA05DF1480ED73AFAA283 /* [CP] Check Pods Manifest.lock */,
+				7B89A8C122F43BC400AF214B /* Sources */,
+				7B89A8C222F43BC400AF214B /* Frameworks */,
+				7B89A8C322F43BC400AF214B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7B89A8C722F43BC400AF214B /* PBXTargetDependency */,
+			);
+			name = "Mega MillionairesTests";
+			productName = "Mega MillionairesTests";
+			productReference = 7B89A8C522F43BC400AF214B /* Mega MillionairesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7B89A8CF22F43BC400AF214B /* Mega MillionairesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7B89A8DF22F43BC400AF214B /* Build configuration list for PBXNativeTarget "Mega MillionairesUITests" */;
+			buildPhases = (
+				3C94D789CF7B841D37BDC5AB /* [CP] Check Pods Manifest.lock */,
+				7B89A8CC22F43BC400AF214B /* Sources */,
+				7B89A8CD22F43BC400AF214B /* Frameworks */,
+				7B89A8CE22F43BC400AF214B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7B89A8D222F43BC400AF214B /* PBXTargetDependency */,
+			);
+			name = "Mega MillionairesUITests";
+			productName = "Mega MillionairesUITests";
+			productReference = 7B89A8D022F43BC400AF214B /* Mega MillionairesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7B89A8A922F43BC300AF214B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Treinetic Macbook004";
+				TargetAttributes = {
+					7B89A8B022F43BC300AF214B = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					7B89A8C422F43BC400AF214B = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 7B89A8B022F43BC300AF214B;
+					};
+					7B89A8CF22F43BC400AF214B = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 7B89A8B022F43BC300AF214B;
+					};
+				};
+			};
+			buildConfigurationList = 7B89A8AC22F43BC300AF214B /* Build configuration list for PBXProject "Mega Millionaires" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7B89A8A822F43BC300AF214B;
+			productRefGroup = 7B89A8B222F43BC300AF214B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7B89A8B022F43BC300AF214B /* Mega Millionaires */,
+				7B89A8C422F43BC400AF214B /* Mega MillionairesTests */,
+				7B89A8CF22F43BC400AF214B /* Mega MillionairesUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7B89A8AF22F43BC300AF214B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B89A8BF22F43BC400AF214B /* LaunchScreen.storyboard in Resources */,
+				7B89A8BC22F43BC400AF214B /* Assets.xcassets in Resources */,
+				7B89A8BA22F43BC300AF214B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B89A8C322F43BC400AF214B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B89A8CE22F43BC400AF214B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3C94D789CF7B841D37BDC5AB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Mega MillionairesUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7948F5055C1AD44E9FEFF8AF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Mega Millionaires-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		96BFA05DF1480ED73AFAA283 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Mega MillionairesTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C4607DF983C1FF46B517C1D3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Mega Millionaires/Pods-Mega Millionaires-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Mega Millionaires/Pods-Mega Millionaires-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Mega Millionaires/Pods-Mega Millionaires-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7B89A8AD22F43BC300AF214B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BB272B522F44D1500E5A10A /* NewTokenViewController.swift in Sources */,
+				7B9340D92302A56E00A23B4F /* StyleExtension.swift in Sources */,
+				7BC102A522FAA44E002444C2 /* Datas.swift in Sources */,
+				7BB272AD22F44B7400E5A10A /* AboutViewController.swift in Sources */,
+				7BE4A76822FBD0B900375E78 /* TokenArray.swift in Sources */,
+				7B19138A22F8171800D611C6 /* HistoryTableViewCell.swift in Sources */,
+				7BC102A722FAA44E002444C2 /* Lottery_Results.swift in Sources */,
+				7BB272B222F44C8600E5A10A /* Config.swift in Sources */,
+				7BC102A922FAC397002444C2 /* LocalData.swift in Sources */,
+				7BB272B722F44D2400E5A10A /* HistoryViewController.swift in Sources */,
+				7BC102AB22FAF813002444C2 /* CustomExtension.swift in Sources */,
+				7B19138522F7EBC500D611C6 /* Enum.swift in Sources */,
+				7BC102A222FAA44E002444C2 /* Page.swift in Sources */,
+				7B89A8B722F43BC300AF214B /* MainController.swift in Sources */,
+				7BF6359F22F929D500113815 /* LotteryApi.swift in Sources */,
+				7BC1029B22FA88AD002444C2 /* ResultTableViewCell.swift in Sources */,
+				7BC102AE22FB0634002444C2 /* Token.swift in Sources */,
+				7B89A8B522F43BC300AF214B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B89A8C122F43BC400AF214B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B89A8CA22F43BC400AF214B /* Mega_MillionairesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B89A8CC22F43BC400AF214B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B89A8D522F43BC400AF214B /* Mega_MillionairesUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7B89A8C722F43BC400AF214B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7B89A8B022F43BC300AF214B /* Mega Millionaires */;
+			targetProxy = 7B89A8C622F43BC400AF214B /* PBXContainerItemProxy */;
+		};
+		7B89A8D222F43BC400AF214B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7B89A8B022F43BC300AF214B /* Mega Millionaires */;
+			targetProxy = 7B89A8D122F43BC400AF214B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7B89A8B822F43BC300AF214B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7B89A8B922F43BC300AF214B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7B89A8BD22F43BC400AF214B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7B89A8BE22F43BC400AF214B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7B89A8D722F43BC400AF214B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7B89A8D822F43BC400AF214B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7B89A8DA22F43BC400AF214B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 37CB119B07E092169C526A07 /* Pods-Mega Millionaires.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LMB3D7R692;
+				INFOPLIST_FILE = "Mega Millionaires/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tg.ravens-004.037-mega-millionaires";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7B89A8DB22F43BC400AF214B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 66B73A2154C720A77660F82E /* Pods-Mega Millionaires.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LMB3D7R692;
+				INFOPLIST_FILE = "Mega Millionaires/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tg.ravens-004.037-mega-millionaires";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7B89A8DD22F43BC400AF214B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F9AC3E57CF9CD1E79CE812A3 /* Pods-Mega MillionairesTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Mega MillionairesTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tg.ravens.004.Mega-MillionairesTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mega Millionaires.app/Mega Millionaires";
+			};
+			name = Debug;
+		};
+		7B89A8DE22F43BC400AF214B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ECD988395C81D29CEF8DE486 /* Pods-Mega MillionairesTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Mega MillionairesTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tg.ravens.004.Mega-MillionairesTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mega Millionaires.app/Mega Millionaires";
+			};
+			name = Release;
+		};
+		7B89A8E022F43BC400AF214B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 567AA4A8C48E3A7A229E05A2 /* Pods-Mega MillionairesUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Mega MillionairesUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tg.ravens.004.Mega-MillionairesUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Mega Millionaires";
+			};
+			name = Debug;
+		};
+		7B89A8E122F43BC400AF214B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 994A571EADE435570D36B05F /* Pods-Mega MillionairesUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Mega MillionairesUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tg.ravens.004.Mega-MillionairesUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Mega Millionaires";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7B89A8AC22F43BC300AF214B /* Build configuration list for PBXProject "Mega Millionaires" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B89A8D722F43BC400AF214B /* Debug */,
+				7B89A8D822F43BC400AF214B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7B89A8D922F43BC400AF214B /* Build configuration list for PBXNativeTarget "Mega Millionaires" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B89A8DA22F43BC400AF214B /* Debug */,
+				7B89A8DB22F43BC400AF214B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7B89A8DC22F43BC400AF214B /* Build configuration list for PBXNativeTarget "Mega MillionairesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B89A8DD22F43BC400AF214B /* Debug */,
+				7B89A8DE22F43BC400AF214B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7B89A8DF22F43BC400AF214B /* Build configuration list for PBXNativeTarget "Mega MillionairesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B89A8E022F43BC400AF214B /* Debug */,
+				7B89A8E122F43BC400AF214B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7B89A8A922F43BC300AF214B /* Project object */;
+}
